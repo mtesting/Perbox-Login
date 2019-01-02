@@ -41,7 +41,6 @@ public class LoginPage {
         continuebtn.click();
         throw new PendingException();
     }
-
     @When("^The user selects the account$")
     public void theUserSelectsTheAccount() throws Throwable {
         driver.findElement(By.xpath("//*[@id=\"login__global-login__tenant-select__poojatest2__tenant__title\"]"));
