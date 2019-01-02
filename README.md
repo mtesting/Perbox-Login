@@ -1,0 +1,8 @@
+# Perbox-Login
+Download Maven
+Download Intellije or Eclipse
+Add dependencies as per the pom.xml file in this project.
+Also download geckodriver, chromedriver etc for different browsers.
+Download Java.
+Also according to the path, edit the geckodriver.exe path in the code.
+Download GIT
