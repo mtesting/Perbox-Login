@@ -9,5 +9,8 @@
         <module name="LoginTest" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="LoginTest" target="1.7" />
+    </bytecodeTargetLevel>
   </component>
 </project>
