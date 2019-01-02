@@ -11,10 +11,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 @CucumberOptions(
         features = "classpath:features"
         , glue = {"steps.LoginPage"}
-        //,tags = {"@F-BrTxBets"}
-        //,tags = {"@LoginTest"}
-        //, monochrome = true
-        //, plugin = {"pretty", "html:target/html/", "json:target/reports.json"}
+
 )
 public class TestRunner {
 
